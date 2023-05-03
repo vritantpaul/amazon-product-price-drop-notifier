@@ -92,7 +92,6 @@ def main():
             time.sleep(15)
 
 
-# sourcery skip: merge-nested-ifs
 if __name__ == "__main__":
     if internet_on():
         os.chdir(r"C:\Users\hp\Scripts\miniprograms\Amazon Product Price")
