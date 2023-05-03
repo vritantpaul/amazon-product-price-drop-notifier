@@ -4,7 +4,7 @@ import logging
 import contextlib
 import pandas as pd
 import requests
-from requests.exceptions import RequestException
+from requests.exceptions import RequestException, ConnectionError
 from bs4 import BeautifulSoup
 from winotify import Notification, audio
 
